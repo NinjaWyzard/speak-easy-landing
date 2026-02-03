@@ -34,11 +34,11 @@ const Hero = () => {
             className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground leading-tight mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Speak with{" "}
-            <span className="text-accent">Confidence</span>,{" "}
+            Encuentra tu{" "}
+            <span className="text-accent">Voz</span>,{" "}
             <br className="hidden md:block" />
-            Lead with{" "}
-            <span className="text-accent">Impact</span>
+            Conecta con tu{" "}
+            <span className="text-accent">Audiencia</span>
           </h1>
 
           {/* Subtitle */}
