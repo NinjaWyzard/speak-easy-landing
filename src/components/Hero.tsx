@@ -41,12 +41,12 @@ const Hero = () => {
           animationDelay: "0.4s"
         }}>
             <Button variant="hero" size="xl">
-              Start Your Transformation
+              Inicia tu Transformación
               <ArrowRight className="ml-2" />
             </Button>
             <Button variant="hero-outline" size="xl">
               <Play className="mr-2" size={18} />
-              Watch Success Stories
+              Ver Historias de Éxito
             </Button>
           </div>
 

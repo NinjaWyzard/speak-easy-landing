@@ -11,21 +11,21 @@ const CTA = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block text-accent font-semibold tracking-wide uppercase text-sm mb-4">
-            Ready to Transform?
+            ¿Listo para Transformarte?
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-primary-foreground mb-6">
-            Your Journey to Confident Speaking Starts with a Single Step
+            Tu Camino hacia una Comunicación Segura Comienza con un Solo Paso
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
-            Book a free 30-minute discovery call to discuss your goals and create 
-            a personalized roadmap for your speaking transformation.
+            Agenda una llamada de descubrimiento gratuita de 30 minutos para discutir tus objetivos 
+            y crear una hoja de ruta personalizada para tu transformación.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button variant="hero" size="xl">
               <Calendar className="mr-2" />
-              Book Free Discovery Call
+              Agenda tu Llamada Gratuita
               <ArrowRight className="ml-2" />
             </Button>
           </div>

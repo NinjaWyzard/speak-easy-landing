@@ -2,20 +2,20 @@ import { Award, BookOpen, Mic2, Users } from "lucide-react";
 const About = () => {
   const credentials = [{
     icon: Mic2,
-    title: "TEDx Speaker",
-    description: "Featured speaker at multiple TEDx events"
+    title: "Orador TEDx",
+    description: "Ponente destacado en múltiples eventos TEDx"
   }, {
     icon: Users,
-    title: "Fortune 500 Coach",
-    description: "Worked with executives from top companies"
+    title: "Coach Ejecutivo",
+    description: "He trabajado con ejecutivos de empresas líderes"
   }, {
     icon: BookOpen,
-    title: "Published Author",
-    description: "Bestselling book on communication"
+    title: "Autor Publicado",
+    description: "Libro bestseller sobre comunicación"
   }, {
     icon: Award,
-    title: "Certified Coach",
-    description: "ICF certified professional coach"
+    title: "Coach Certificado",
+    description: "Coach profesional certificado ICF"
   }];
   return <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
@@ -60,7 +60,7 @@ Por eso ahora me dedico a ayudar a otras personas, introvertidas también, quiz�
                     <Mic2 className="w-12 h-12 text-accent" />
                   </div>
                   <p className="text-2xl font-serif italic">
-                    "Your voice is your greatest instrument. Let's tune it to perfection."
+                    "Tu voz es tu mejor instrumento. Vamos a afinarlo a la perfección."
                   </p>
                 </div>
               </div>

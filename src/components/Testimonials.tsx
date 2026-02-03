@@ -3,24 +3,24 @@ import { Quote, Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Chen",
+      name: "María García",
       role: "CEO, TechVentures",
       content:
-        "Before working with VoiceMastery, I dreaded investor pitches. Now I actually look forward to them. We closed our Series B with a presentation that left investors asking for more.",
+        "Antes de trabajar con VoiceMastery, temía las presentaciones a inversores. Ahora las espero con entusiasmo. Cerramos nuestra Serie B con una presentación que dejó a los inversores queriendo más.",
       rating: 5,
     },
     {
-      name: "Marcus Johnson",
-      role: "Senior VP, Global Finance Corp",
+      name: "Carlos Rodríguez",
+      role: "VP Senior, Finanzas Globales",
       content:
-        "The transformation was remarkable. In just 8 sessions, I went from reading off slides to commanding the room. My team noticed the difference immediately.",
+        "La transformación fue notable. En solo 8 sesiones, pasé de leer diapositivas a dominar la sala. Mi equipo notó la diferencia inmediatamente.",
       rating: 5,
     },
     {
-      name: "Dr. Emily Rodriguez",
-      role: "Medical Director",
+      name: "Dra. Elena Martínez",
+      role: "Directora Médica",
       content:
-        "As a physician, I never thought public speaking would be crucial to my career. Now I regularly speak at conferences and it's opened doors I never imagined.",
+        "Como médica, nunca pensé que hablar en público sería crucial para mi carrera. Ahora hablo regularmente en conferencias y me ha abierto puertas que nunca imaginé.",
       rating: 5,
     },
   ];
@@ -31,14 +31,14 @@ const Testimonials = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-accent font-semibold tracking-wide uppercase text-sm">
-            Testimonials
+            Testimonios
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2 mb-4">
-            Success Stories from Real Clients
+            Historias de Éxito de Clientes Reales
           </h2>
           <p className="text-muted-foreground">
-            Don't just take my word for it. Here's what my clients have to say about 
-            their transformation journey.
+            No solo tomes mi palabra. Esto es lo que mis clientes dicen sobre 
+            su proceso de transformación.
           </p>
         </div>
 
