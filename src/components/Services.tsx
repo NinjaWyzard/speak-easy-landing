@@ -5,34 +5,34 @@ const Services = () => {
   const services = [
     {
       icon: Briefcase,
-      title: "Executive Coaching",
+      title: "Coaching Ejecutivo",
       description:
-        "One-on-one sessions designed for C-suite executives and senior leaders who need to command boardrooms and inspire teams.",
-      features: ["Personalized curriculum", "Video analysis", "Real-time feedback", "Unlimited support"],
+        "Sesiones uno a uno diseñadas para ejecutivos y líderes senior que necesitan dominar salas de juntas e inspirar equipos.",
+      features: ["Programa personalizado", "Análisis de video", "Retroalimentación en tiempo real", "Soporte ilimitado"],
       popular: true,
     },
     {
       icon: Users2,
-      title: "Group Workshops",
+      title: "Talleres Grupales",
       description:
-        "Interactive workshops for teams looking to improve their collective communication skills and presentation abilities.",
-      features: ["Team dynamics focus", "Group exercises", "Peer feedback", "Custom scenarios"],
+        "Talleres interactivos para equipos que buscan mejorar sus habilidades de comunicación colectiva y capacidades de presentación.",
+      features: ["Enfoque en dinámicas de equipo", "Ejercicios grupales", "Retroalimentación entre pares", "Escenarios personalizados"],
       popular: false,
     },
     {
       icon: Video,
-      title: "Virtual Presentation",
+      title: "Presentaciones Virtuales",
       description:
-        "Master the art of virtual presentations. Learn to engage audiences through screens with the same impact as in-person.",
-      features: ["Camera presence", "Technical setup", "Engagement tactics", "Platform mastery"],
+        "Domina el arte de las presentaciones virtuales. Aprende a cautivar audiencias a través de pantallas con el mismo impacto que en persona.",
+      features: ["Presencia ante cámara", "Configuración técnica", "Tácticas de engagement", "Dominio de plataformas"],
       popular: false,
     },
     {
       icon: GraduationCap,
-      title: "Keynote Preparation",
+      title: "Preparación de Keynotes",
       description:
-        "Comprehensive preparation for your most important speeches. From TED talks to conference keynotes.",
-      features: ["Script development", "Stage movement", "Q&A preparation", "Dress rehearsals"],
+        "Preparación integral para tus discursos más importantes. Desde charlas TED hasta keynotes en conferencias.",
+      features: ["Desarrollo de guión", "Movimiento escénico", "Preparación de Q&A", "Ensayos generales"],
       popular: false,
     },
   ];
@@ -43,14 +43,14 @@ const Services = () => {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-accent font-semibold tracking-wide uppercase text-sm">
-            Services
+            Servicios
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2 mb-4">
-            Tailored Programs for Every Speaking Need
+            Programas Personalizados para Cada Necesidad
           </h2>
           <p className="text-muted-foreground">
-            Whether you're a nervous beginner or a seasoned speaker looking to level up, 
-            I have a program designed specifically for your goals.
+            Ya seas un principiante nervioso o un orador experimentado buscando mejorar, 
+            tengo un programa diseñado específicamente para tus objetivos.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Services = () => {
             >
               {service.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-accent text-accent-foreground text-xs font-semibold rounded-full">
-                  Most Popular
+                  Más Popular
                 </div>
               )}
 
@@ -115,7 +115,7 @@ const Services = () => {
                 variant={service.popular ? "gold" : "outline"}
                 className="w-full group-hover:gap-3 transition-all"
               >
-                Learn More
+                Saber Más
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </div>

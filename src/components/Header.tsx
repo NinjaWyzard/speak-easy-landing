@@ -6,10 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" },
+    { name: "Acerca de", href: "#about" },
+    { name: "Servicios", href: "#services" },
+    { name: "Testimonios", href: "#testimonials" },
+    { name: "Contacto", href: "#contact" },
   ];
 
   return (
@@ -39,7 +39,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="gold" size="lg">
-              Book a Call
+              Agenda una Llamada
             </Button>
           </div>
 
@@ -68,7 +68,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="gold" className="mt-2">
-                Book a Call
+                Agenda una Llamada
               </Button>
             </nav>
           </div>

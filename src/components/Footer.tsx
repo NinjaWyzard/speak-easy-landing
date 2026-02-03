@@ -13,7 +13,7 @@ const Footer = () => {
               Voice<span className="text-accent">Mastery</span>
             </span>
             <p className="text-sm text-muted-foreground mt-1">
-              Transforming voices, empowering leaders
+              Transformando voces, empoderando líderes
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © {currentYear} VoiceMastery. All rights reserved.
+            © {currentYear} VoiceMastery. Todos los derechos reservados.
           </p>
         </div>
       </div>
