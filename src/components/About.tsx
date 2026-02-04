@@ -59,9 +59,7 @@ Por eso ahora me dedico a ayudar a otras personas, introvertidas también, quiz�
                   <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-accent/20 flex items-center justify-center">
                     <Mic2 className="w-12 h-12 text-accent" />
                   </div>
-                  <p className="text-2xl font-serif italic">
-                    "Tu voz es tu mejor instrumento. Vamos a afinarlo a la perfección."
-                  </p>
+                  <p className="text-2xl font-serif italic">"La mejor herramienta comunicacional no es hablar bien. Es saber observar en profundidad"</p>
                 </div>
               </div>
             </div>
